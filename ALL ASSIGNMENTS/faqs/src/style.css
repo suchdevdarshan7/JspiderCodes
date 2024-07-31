@@ -1,0 +1,46 @@
+*{
+    margin:0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image:  linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.6)),url(./assets/lake-7925872.jpg);
+    background-position: center center;
+    background-repeat:no-repeat ;
+    background-size: 100% 100%;
+
+}
+.container
+{
+    background-color: white;
+    position: relative;
+    margin-top:15px;
+    box-shadow: 0px 4px 10px 5px rgba(0,0,0,0.1);
+    padding: 15px; 
+    border-radius: 10px; 
+    width:600px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+.para{
+    position: absolute;
+    right: 20px;
+    font-weight: bolder;
+    font-size: 30px;
+    cursor: pointer;
+    color: rgb(9, 193, 183);
+}
+
+h3{
+    font-weight: 550;
+    text-transform: capitalize;
+    text-indent: 1px;
+}
+

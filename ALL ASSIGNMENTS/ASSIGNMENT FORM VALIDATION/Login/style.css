@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url(./black.jpg);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 100%;
+}
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  box-shadow: 0 4px 10px 10px rgba(0, 0, 0, 0.1);
+  height: 50vh;
+  width: 30vw;
+  border-radius: 18px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.box h1 {
+  color: white;
+}
+.box div {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.box input {
+  height: 50px;
+  width: 300px;
+  padding-left: 22px;
+  font-size: 17px;
+  border-radius: 14px;
+  transition: all 0.6s;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0px 2px 20px 10px dodgerblue;
+}
+
+button {
+  border-radius: 19px;
+  height: 40px;
+  width: 150px;
+  border: none;
+  background-color: green;
+  color: white;
+  font-size: 17px;
+  transition: all 0.5s;
+}
+button:active {
+  transform: scale(0.95);
+}
+
+.error {
+  color: red;
+}

@@ -1,0 +1,31 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    text-transform: uppercase ;
+}
+
+img{
+    height:150px; 
+    width:150px; 
+    border-radius: 12px;
+}
+
+table{
+    margin: 10px auto; 
+    border:2px solid black;
+    width:70vw;
+    border-collapse: collapse;
+}
+
+th,td{
+    width:50px; 
+    border:1px solid black;
+}
+table{
+    text-align:center;
+}
+
+.increase{
+    width:40vw;
+}

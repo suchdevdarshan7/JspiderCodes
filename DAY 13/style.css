@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a:link 
+{
+    text-decoration:none;
+    background-color: navy;
+    color: white;
+}
+a:visited{
+    text-decoration: line-through;
+    color: black;
+    background-color: green;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: red;
+}
+
+a:active{
+    text-decoration: overline;
+    background-color: blue;
+}
+
+
+a::after{
+    content: "Darshan is good boy";
+    padding:10px;
+    display: block; 
+}
+
+a::before{
+    content:"Lamborghini is a supercar ";
+    padding:12px;
+    display: block;
+}

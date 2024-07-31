@@ -1,0 +1,31 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+ 
+.container{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    gap:20px; 
+}
+
+.box{
+    height:25%; 
+    width: 25%; 
+    background-color: red;
+}
+
+@media screen and (min-width: 400px),(max-width:500px){
+    .container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .box{
+        background-color: blue; 
+    }
+}
+
+ 

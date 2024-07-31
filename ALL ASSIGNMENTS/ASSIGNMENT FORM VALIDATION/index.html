@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h1>Sign up!😜</h1>
+            <form action="#">
+                <div class="box1 box3">
+                    <input class="input-tags" type="text" placeholder="FirstName" id="firstName">
+                    <input class="input-tags" type="tel" placeholder="Mobile" maxlength="10" id="phoneNumber">
+                    <input class="input-tags" type="password" placeholder="Password" id="passWord">
+                    <div class="input_class" input-tags"">
+                        <label for="dob" id="dob-tag">DOB</label>
+                        <input id="dob" type="date" placeholder="DOB">
+                    </div>
+
+                </div>
+                <div class="box1">
+                    <input class="input-tags" type="text" placeholder="LastName" id="lastName">
+                    <input class="input-tags" type="text" placeholder="Email Address" id="emailId">
+                    <input class="input-tags" type="password" placeholder="Confirm Password" id="confirm-password">
+                    <div class="gender">
+                        <label for="gender">Gender: </label>
+                        Male
+                        <input type="radio" name="Gender" id="Gender" class="male gendeR">
+                        Female
+                        <input type="radio" name="Gender" class="female gendeR">
+                    </div>
+                </div>
+                <div class="error hidden">
+
+                </div>
+                <div class="buttons">
+                    <button type="submit" type="submit" id="register">Register</button>
+
+                    <button type="reset">Reset</button>
+                </div>
+            </form>
+
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>

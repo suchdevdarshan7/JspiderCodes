@@ -1,0 +1,90 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(construction-3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%,100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+}
+
+.navBar{
+    /* position: fixed; */
+    display: flex;
+    gap: 40px;
+    height: 50px;
+    align-items: center;
+}
+
+.navBar-links:link,
+.navBar-links:visited{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+.navBar-links:hover{
+
+    border-bottom: solid yellow;
+    transition: all 0.2ms;
+}
+
+.second{
+    margin: 0 auto;
+    height: 500px;
+    width: 600px;
+    padding-top: 12px;
+}
+
+.second h2{
+    font-size: 54px;
+    text-align: center;
+    margin-bottom: 28px;
+    
+}
+
+.second p{
+    /* height: 450px; */
+    margin: 0 auto;
+    width: 550px;
+    font-size: 20px;
+    font-style:normal;
+    line-height: 27px;
+    margin-bottom:28px;
+}
+
+.button:link,
+.button:visited{
+    margin: 0 auto;
+    display: block;
+    text-align: center ;
+    width:220px;
+    padding:20px;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 2px solid yellow;
+    font-weight: bold;
+    transition: all 1s ;
+}
+
+.button:hover{
+    background-color: rgb(215, 215, 61);
+}
+
+.firstLink:link,
+.firstLink:visited{
+    border-bottom: 2px solid yellow;
+}

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+body{
+    color : white;
+    background-color: cyan;
+}
+video{
+    height: 350px;
+    width: 600px;
+    border: solid 3px grey;
+    border-radius: 25px;
+}
+audio{
+    border: solid 2px blue;
+    border-radius : 25px;
+    
+}
+.container{
+    height: 400px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+

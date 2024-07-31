@@ -1,0 +1,50 @@
+*{
+    margin:0; 
+    padding:0; 
+    box-sizing: border-box;
+}
+
+.container{
+    display:none; 
+}
+
+.container.activer{
+    display: block ; 
+    width:70vw; 
+    height:50px; 
+    background-color: green;
+    border-radius: 18px; 
+    text-align: center;
+    color: white; 
+    font-size: 22px; 
+    margin: 10px auto; 
+}
+.active{
+    color: white; 
+    background-color: green;
+    padding: 12px;
+    border-radius: 12px;    
+    border:none;
+}
+
+#time{
+    display: none; 
+}
+
+.disable{
+    border: none;
+    padding: 12px;
+    border-radius: 12px;    
+    background-color: grey ; 
+    color: white;
+    cursor: not-allowed;
+}
+button{
+    display: block;
+    margin: 50px auto; 
+}
+
+#time{
+    font-size: 40px; 
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+*{
+    margin:0; 
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1{
+    padding: 8px;
+}
+.demo{
+    text-transform: uppercase;
+    border: 1px solid blue; 
+    padding: 8px;
+    text-align: center;
+    font-family: "algerian";
+    color: green; 
+    text-shadow: 2px 2px red ; 
+}
+
+a:link,
+a:visited{
+    display: inline-block;
+    text-decoration: none; 
+    color: white; 
+    background-color: navy; 
+}

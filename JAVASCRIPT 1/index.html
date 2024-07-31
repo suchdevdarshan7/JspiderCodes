@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+
+            height: 50vh;
+            background-color: aqua;
+        }
+
+        a:link,
+        a:visited {
+            text-decoration: none;
+            color: white;
+            background-color: navy;
+            padding: 10px 20px;
+            border-radius: 24px;
+
+        }
+
+        img {
+            height: 250px;
+            width: 350px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a href="#" id="btn">Button</a>
+        <img src="free-photo-of-woman-posing-on-street-with-church-behind-at-sunset.jpeg" alt="" id="img">
+    </div>
+    <script>
+        const button = document.getElementById('btn');
+        const image = document.getElementById('img');
+        let count = 0;
+        button.addEventListener("click", function () {
+            button.textContent = "Clicked";
+            button.style.backgroundColor = "green";
+           
+        })
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 400px;
+    width: 500px;
+
+    /* Margins shorthand property defines the following  */
+    /* margin: 100px 120px 130px 160px ; */
+ 
+    margin: 0 auto; 
+    
+    /* Short hand property of border refers :  */
+    /* border-color: orange; */
+    border-top-color: yellow;
+    border-bottom-color: green;
+    border-right-color: red;
+    border-left-color: blue;
+    border-width: 25px;
+    border-style: solid;
+    border-radius: 50%;
+
+    /* Short hand property defines */
+
+    padding: 25px;
+
+    
+}
+
+
+.box{
+    height: 300px;
+    width: 500px;
+    border: 2px solid green;
+}
+
+

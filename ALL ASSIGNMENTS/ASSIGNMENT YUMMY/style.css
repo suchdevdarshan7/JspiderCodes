@@ -1,0 +1,103 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Calibri;
+}
+
+.navigation{
+    position: sticky;
+    /* width: 1600px; */
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly ;
+    background-color: #fbfcf8;
+    height: 100px;
+}
+h3{
+    font-size: 40px;
+
+}
+
+.navBar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+
+.navBar a:link,
+.navBar a:visited{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 22px;
+}
+.navBar a:hover{
+    text-decoration: none;
+    border-bottom: 2px solid red;
+
+}
+.book:link,
+.book:visited{
+    display: inline-block;
+    width:150px;
+    text-align:center;
+    padding:12px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    border-radius: 24px;
+}
+
+.book:hover{
+    background-color: rgba(255, 0, 0, 0.721);
+    text-decoration: none;
+}
+
+.secondPart{
+    background-color: #fff9E3;
+    display:flex;
+    gap:100px;
+    align-items:center;
+    justify-content: center ;
+}
+
+.first {
+        display:flex;
+        flex-direction: column;
+        justify-content: center ;
+        align-items: center;
+    }
+.num1,.num2{
+        font-family: "Amatic SC", sans-serif;
+        font-size: 62px;
+        font-weight: 600;
+
+        
+}
+.buttons{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap:25px;
+}
+.num3{
+    width:400px;
+    font-size:20px;
+    margin-bottom: 18px;
+}
+
+.buttons a:link,
+.buttons a:visited{
+    text-decoration : none;
+    padding:12px; 
+    background-color: red;  
+    color: white;
+    border-radius: 24px;
+}
+
+.buttons a:hover{
+    background-color: rgba(255, 0, 0, 0.721);
+    text-decoration: none;
+}

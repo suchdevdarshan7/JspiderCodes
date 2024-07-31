@@ -1,0 +1,28 @@
+section p{
+    background-color: red;
+}
+section p{
+    background-color: red;
+}
+section p{
+    background-color: red;
+}
+
+/* section>p{
+    background-color: red;
+} */
+/* section main p{
+    background-color: green;
+} */
+
+/* section~div{
+    background-color: green;
+} */
+
+section+p{
+    background-color: green;
+} 
+/* 
+section~p{
+    background-color: blue;
+} */

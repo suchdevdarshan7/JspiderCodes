@@ -1,0 +1,30 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh ; 
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:45px;
+    flex-direction: column;
+}
+
+.box{
+    width: 50%;
+    box-shadow: 0px 5px 5px 5px rgba(0,0,0,0.2);
+    padding:14px;
+    border-radius: 5px; 
+    background-color: white; 
+}
+
+.box p{
+    display: none; 
+}
+.box.active p{
+    display: block; 
+}

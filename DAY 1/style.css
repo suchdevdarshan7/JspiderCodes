@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+    /* background-color: red; */
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+h1{
+    background-color: lightblue;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    /* border: solid 5px black; */
+    margin-bottom: 12px;
+}
+.contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+
+}
+span{
+    text-transform: uppercase;
+    color: white;
+    
+}
+nav{
+    display:flex;
+}

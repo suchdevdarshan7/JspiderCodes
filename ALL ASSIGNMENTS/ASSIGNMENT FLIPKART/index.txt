@@ -1,0 +1,26 @@
+const section = document.querySelector('section);
+const inputBtn = document.querySelector('.search);
+const searchBtn = document.querySelector('.search-btn');
+const totalDisplay = document.querySelector('.totalValue');
+
+let allProducts = [];
+let totalSum = 0;
+
+searchBtn.addEventListener('click',()=>{
+    let value = inputBtn.value.trim().toLowerCase();
+    filterProducts(value);
+})
+
+inputBtn.addEventListener('keydown', (e)=>{
+    
+    if(e.key === 'Enter'){
+        let value = inputBtn.value.trim().toLowerCase();
+        filterProducts(value);   
+    }
+})
+
+function renderContent(product){
+    const box = document.createElement("div")
+    box.classList.add('box',"active");
+    
+}

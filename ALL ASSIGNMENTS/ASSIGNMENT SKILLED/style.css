@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    gap:20px;   
+    
+    /* background-color: blue; */
+    
+}
+.main{
+    display: flex;
+    box-shadow:0 30px 30px 0 rgba(0, 0, 0, 0.08);
+    padding:12px;
+    border-radius: 22px;
+
+}
+
+.container{
+    color:lightblue;
+    background-color: blue;    
+    border-radius: 32px;
+    height: 67vh;
+    width:27vw;
+    display: flex;
+    flex-direction:  column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    
+}
+.container p{
+    width: 250px;
+    font-size:20px;
+    color: white; 
+}
+
+.nextBlock{
+    padding:12px;
+    background-color: white;
+    height: 67vh;
+    width: 22vw;
+    display: flex;
+    flex-direction: column;
+    gap:30px; 
+    align-items: center; 
+    justify-content: center;  
+    border-radius: 24px;
+
+}
+
+/* .nextBlock div {
+    border: 2px solid green;
+    width: 250px;
+    height: 40px;
+    
+} */
+/*   */
+.btn:link, 
+.btn:visited{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    display: inline-block;
+    height: 50px;
+    width: 280px;
+    background-color: rgb(5, 5, 59);
+    border-radius: 28px;
+    padding-top:15px;
+    padding-bottom:15px;
+    padding-right: 15px; 
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size:18px;
+    font-family: sans-serif;
+}
+
+.inner-box{
+    height: 80px;
+    width: 280px;
+    /* border: 2px solid green; */
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding-left:12px;
+    padding-right: 12px;
+    padding-top:12px; 
+    padding-bottom:12px;  */
+    padding: 8px;
+    background-color: rgb(188, 203, 236);
+
+}
+.bx1 .span1{
+    color: red;
+    font-family: sans-serif;
+    font-size:18px;
+    /* letter-spacing: 1px; */
+    /* margin-left:12px; */
+    /* margin-left:12px; */
+}
+.bx1 .span2{
+    color:black;
+    font-family:sans-serif; 
+    font-size:18px;  
+    margin-right:12px; 
+}
+
+.bx2 .span1{
+    color: yellow;
+    font-family: sans-serif;
+    font-size:18px;
+    /* letter-spacing: 1px; */
+    /* margin-left:12px; */
+}
+.bx2 .span2{
+    color:black;
+    font-family:sans-serif; 
+    font-size:18px;  
+    margin-right: 12px;  
+}
+.bx3 .span1{
+    color: green;
+    font-size:18px;
+    font-family: sans-serif;
+    /* margin-left:12px; */
+}
+.bx3 .span2{
+    color:black;
+    font-family:sans-serif; 
+    font-size:18px;  
+    margin-right: 12px; 
+}
+
+.bx4 .span1{
+    color: purple;
+    font-family: sans-serif;
+    /* margin-left:12px;    */
+    font-size:18px;
+}
+
+.bx4 .span2{
+    color: black ;
+    font-family: sans-serif;
+    font-size: 18px; 
+    margin-right:12px;  
+}
+.nextBlock h4{
+    font-size:25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
+
+.marks{
+    width: 19vh;
+    height: 19vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: #fff solid 2px; */
+    border-radius: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkblue ;
+}
+
+.marks h3{
+    font-size: 44px;
+    color: white;
+}
+
+.container h3{
+    font-size:32px;
+    font-family: sans-serif;
+}
+
+.container div h1{
+    font-size: 33px;
+    font-family: sans-serif;
+}
+
+.container div p{
+    font-family: sans-serif;
+    font-size: 16px;
+    text-align: center  ;
+    color: lightblue;
+}
+
+.inner-box b{
+    margin-right:12px;  
+}
+
+
+.icons{
+    height: 20px;
+    width: 20px;
+}
+.bx1 .icons{
+    stroke: red;
+}
+.bx2 .icons{
+    stroke: rgb(255, 255, 71);
+}
+.bx3 .icons{
+    stroke: green;
+
+}
+.bx4 .icons{
+    stroke: purple;
+}

@@ -1,0 +1,23 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    border: 2px solid white ;   
+    padding:12px;
+    border-radius: 12px;
+    margin:12px;
+}
+
+img{
+    display: inline;
+}
+
+button:hover+img
+{
+    display: none ;
+}

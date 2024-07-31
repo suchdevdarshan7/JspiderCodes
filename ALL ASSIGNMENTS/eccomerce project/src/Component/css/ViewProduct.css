@@ -1,0 +1,17 @@
+
+.btn-animate{
+    animation: animate-btn 3s infinite;
+}
+
+@keyframes animate-btn {
+    0%{
+        background-color: red;
+    }
+    50%{
+        background-color: gold;
+    }
+    100%{
+        background-color: purple;
+    }
+    
+}

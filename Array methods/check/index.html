@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a {
+            font-size: 50px;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a href="#">hi</a>
+        <a href="#">hi</a>
+        <a href="#">hi</a>
+        <a href="#">hi</a>
+        <a href="#">hi</a>
+    </div>
+
+    <script>
+        let anchors = document.querySelectorAll('a');
+
+        anchors.forEach(element => {
+            element.addEventListener('mouseover', function (e) {
+                if (e.ctrlKey) {
+                    element.style.backgroundColor = "hotpink";
+                }
+                else {
+                    element.style.backgroundColor = "white";
+                    return;
+                }
+            })
+
+        })
+
+
+    </script>
+</body>
+
+</html>

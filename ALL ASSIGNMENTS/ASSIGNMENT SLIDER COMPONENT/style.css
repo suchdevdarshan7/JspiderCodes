@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding:0; 
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh; 
+    /* background-color: dodgerblue; */
+    background-color: black;
+    /* background: linear-gradient(to right ,#fb745d,#fa4d2f);     */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.image{
+    position: relative; 
+    /* border:10px solid white;  */
+    border-radius: 18px;
+    width:70vw;
+    transition: all 0.6s;
+}
+.slider{    
+    height:75vh;
+    width: 68vw;
+    border-radius: 18px;
+    box-shadow: 0px 3px 10px 3px white;
+    perspective: 50px;
+    /* object-fit: contain;  */
+    transition: all 2s;
+    animation: screenChanger 2s 1; 
+}
+.btn--1{
+    background-color: tomato;
+    border: none;
+    display:inline-block; 
+    position: absolute; 
+    left: -42px;
+    top:50%; 
+    height:40px ;
+    width:40px;
+    border-radius: 4px;
+    /* border-radius: 50%; */
+    transform: translateY(-50%);
+    transition: all 0.5s;
+    
+}
+.btn--1:active{
+    transform: scale(0.95);
+}
+.btn--2{
+    background-color: tomato;
+    border: none;
+    display:inline-block; 
+    position: absolute; 
+    border-radius: 4px;
+    /* border-radius: 50%; */
+    right:-14px;
+    top: 50%; 
+    height:40px ;
+    width:40px;
+    transform: translateY(-50%);
+    transition: all 0.5s;
+
+}
+.btn--2:active{
+    transform: scale(0.95);
+}
+
+.btn--2 svg,
+.btn--1 svg{
+    stroke: white;   
+}
+
+@keyframes screenChanger {
+    from{
+        transform: rotateX(0.5turn);
+    }
+    to{
+        transform: 0;
+    }
+}

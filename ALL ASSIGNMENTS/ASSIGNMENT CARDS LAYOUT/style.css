@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: calibri;
+}
+
+.main_division{
+    height: 100vh;
+    display:flex;
+    justify-content: center;  
+    align-items: center;
+    gap:20px;
+}
+ 
+h1{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    font-size: 36px;
+    font-family:Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 5\00;
+}
+h1::before{
+content: "";
+width: 50px;
+height: 2px;
+margin-bottom:12px;
+background: rgba(255, 0, 0, 0.674)  ;
+display: inline-block;
+}
+h1::after {
+content: "";
+width: 50px;
+height: 2px;
+margin-bottom:12px;
+background: rgba(255, 0, 0, 0.674)  ;
+display: inline-block;
+}
+
+h1+p{
+    font-size: 18px;
+    text-align: center;
+    font-family: calibri;
+    letter-spacing: 1px;
+}
+
+.cards_1, .cards_2 ,
+.cards_3{
+    height: 85vh;
+    width: 26vw;
+    padding:60px 20px;
+    box-shadow: 0px 3px 20px -2px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cards_2{
+    border: 2px solid red;
+    transform: scale(1.10);
+}
+
+.buy_anchors2:link,
+.buy_anchors2:visited{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(255, 0, 0, 0.674);
+    padding:12px;
+    border-radius:12px;
+    width: 130px;
+    text-align: center  ;
+}
+
+.buy_anchors2:hover{
+    text-decoration: none ;
+    background-color:rgba(255, 0, 0, 0.452);
+}
+
+.buy_anchors1:link,
+.buy_anchors3:link,
+.buy_anchors3:visited,
+.buy_anchors1:visited{
+
+    display: inline-block;
+    width: 130px;
+    border-radius: 12px;
+    text-align: center  ;
+    color: black;
+    border: 1px solid grey;
+    text-decoration: none;
+    padding:12px;
+    border-radius:12px;
+    transition: all 0.5s;
+}
+
+.buy_anchors1:hover,
+.buy_anchors3:hover{
+    text-decoration: none;
+    background-color:rgba(255, 0, 0, 0.674);
+    color: white;
+
+}
+.inner{
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+}
+
+.cut{
+    text-decoration: line-through;
+}
+
+.price{
+    color: rgba(255, 0, 0, 0.674);
+    font-size:50px;
+    font-weight: bolder;
+}
+
+.heads{
+    font-size: 25px;
+    font-family: calibri;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+
+.innerSpan{
+    font-size:16px;
+    color: grey;
+    font-weight: 100;
+    letter-spacing: 2px;
+}

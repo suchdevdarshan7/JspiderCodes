@@ -1,0 +1,51 @@
+div{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    background-color: red;
+    animation-name: box;
+    animation-duration: 10s;
+    animation-delay: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    /* holds the last keyframe */
+    /* animation-fill-mode: forwards;  */
+    /* holds first keyframe for the specified animation-delay */
+    /* animation-fill-mode: backwards; */
+
+    /* animation-fill-mode: both; */
+
+
+}
+/* @keyframes box {
+    from{
+        background-color: blue;
+    }
+    to{
+        background-color: green;
+    }
+} */
+
+@keyframes box {
+    0%{
+        background-color: blue;
+    }
+    20%{
+        background-color: green;
+    }
+    40%{
+        background-color: yellow;
+        transform: rotate(30deg);
+    }
+    60%{
+        background-color: purple;
+    }
+    80%{
+        background-color: gray;
+    }
+    100%{
+        background-color: violet;
+        transform: translateY(100px);
+    }
+}
